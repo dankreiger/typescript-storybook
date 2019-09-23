@@ -1,0 +1,32 @@
+{
+  "name": "ts-ui-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dan Kreiger <dan@dankreiger.com> (http://www.dankreiger.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-info": "^5.2.1",
+    "@storybook/addon-knobs": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/react": "^5.2.1",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^4.1.19",
+    "babel-core": "^6.26.3",
+    "babel-loader": "8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "react-docgen-typescript-loader": "^3.2.1",
+    "ts-loader": "^6.1.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "storybook": "start-storybook -p 6006 -c .storybook"
+  }
+}
